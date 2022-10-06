@@ -1,0 +1,39 @@
+:root {
+  --main-bg-color: rgb(232, 234, 246);
+  --edit-icon: rgb(216, 67, 21);
+  --add-icon: rgb(1, 87, 155);
+  --bottom-menu: rgb(197, 202, 233);
+  --top-menu: rgb(235, 138, 101);
+}
+body {
+  padding: 0;
+  margin: 0 !important;
+  background-color: var(--main-bg-color);
+  width: 280px;
+  height: 380px;
+}
+sup {
+  font-size: xx-small;
+}
+
+.propMate-location-cards {
+  max-height: 266px;
+  margin-top: 10px;
+  overflow-y: scroll;
+}
+.propMate-location-cards::-webkit-scrollbar {
+  width: 6px;
+}
+.propMate-location-cards::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.1);
+}
+.propMate-location-cards::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  background: rgba(0, 0, 0, 0.2);
+}
+.propMate-location-cards::-webkit-scrollbar-thumb:hover {
+  background: rgba(0, 0, 0, 0.4);
+}
+.propMate-location-cards::-webkit-scrollbar-thumb:active {
+  background: rgba(0, 0, 0, 0.9);
+}
